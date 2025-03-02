@@ -1,0 +1,20 @@
+{
+  "name": "first-playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "playwright test",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.8"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
