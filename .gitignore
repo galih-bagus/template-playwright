@@ -8,3 +8,5 @@ node_modules/
 .github/
 .idea
 /test-screenshot/
+allure-results
+allure-report
