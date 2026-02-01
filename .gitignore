@@ -5,7 +5,7 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
-.github/
+# .github/
 .idea
 /test-screenshot/
 allure-results
