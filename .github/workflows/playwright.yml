@@ -27,8 +27,9 @@ jobs:
       - name: Run Playwright tests
         run: npm run test
 
-      - name: Run Playwright tests
-        run: npm run test
+      - name: Check Allure results
+        if: always()
+        run: ls -la allure-results || echo "No allure-results found"
 
       - name: Generate Allure report
         if: always()
